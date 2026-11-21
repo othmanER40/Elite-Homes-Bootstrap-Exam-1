@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/media.css">
+        <link rel="stylesheet" href="./css/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+<body>
+<nav id="nav-color" class="navbar navbar-expand-lg  mynav px-2 fixed-top ">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse " id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+                <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Properties
+          </a>
+          <ul id="dropdown-menu" class="dropdown-menu ">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+
+                <li class="nav-item">
+          <a class="nav-link" href="#">Services</a>
+        </li>
+                <li class="nav-item">
+          <a class="nav-link" href="#">Test</a>
+        </li>
+        </li>
+                <li class="nav-item">
+          <a class="nav-link" href="#">FAQ</a>
+        </li>
+                </li>
+                <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+
+      </ul>
+ 
+    </div>
+  </div>
+</nav>
+
+
+<section id="hero-section" class="hero-section py-5">
+    <div class="container">
+
+        <!-- Hero Content -->
+        <div class="hero-content text-center mb-5">
+            <h1 class="display-2 fw-bold mb-4">
+                Find Your Dream Home
+            </h1>
+
+            <p class="fs-5 mx-auto">
+                Discover exceptional properties in prime locations.
+                From modern condos to luxury estates, we help you
+                find the perfect place to call home.
+            </p>
+        </div>
+
+        <!-- Search Box -->
+        <div id="search-box" class="search-box bg-white rounded-4 shadow p-4 mx-auto ">
+
+            <div class="row g-3">
+
+                <div class="col-lg-5 col-md-6">
+                    <label class="form-label w-100 text-center">Location</label>
+                    <div class="input-group">
+                        <span class="input-group-text bg-white">
+                            <i class="fa-solid fa-location-dot"></i>
+                        </span>
+                        <input type="text" class="form-control"
+                            placeholder="Enter city, neighborhood, or ZIP code">
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-md-6">
+                    <label class="form-label w-100 text-center">Property Type</label>
+                    <select class="form-select">
+                        <option>All Types</option>
+                        <option>Apartment</option>
+                        <option>House</option>
+                        <option>Villa</option>
+                    </select>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <label class="form-label w-100 text-center">Price Range</label>
+                    <select class="form-select">
+                        <option>Any Price</option>
+                        <option>$100k - $300k</option>
+                        <option>$300k - $500k</option>
+                    </select>
+                </div>
+
+                <div class="col-sm-6 col-lg-3 col-md-6">
+                    <label class="form-label w-100 text-center">Bedrooms</label>
+                    <select class="form-select">
+                        <option>Any</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4+</option>
+                    </select>
+                </div>
+
+                <div class="col-sm-6 col-lg-3 col-md-6">
+                    <label class="form-label w-100 text-center">Bathrooms</label>
+                    <select class="form-select">
+                        <option>Any</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                    </select>
+                </div>
+
+                <div class="col-sm-6 col-lg-3 col-md-6">
+                    <label class="form-label w-100 text-center">Min Sq Ft</label>
+                    <input type="number" class="form-control" placeholder="1,000">
+                </div>
+
+                <div class="col-sm-6 col-lg-3 col-md-6">
+                    <label class="form-label w-100 text-center">Max Sq Ft</label>
+                    <input type="number" class="form-control" placeholder="5,000">
+                </div>
+
+                <div class="col-12">
+                    <button class="btn search-btn w-100 py-3 fw-bold">
+                        <i class="fa-solid fa-magnifying-glass me-2"></i>
+                        Search Properties
+                    </button>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Statistics -->
+        <div class="stats row text-center mt-5 g-4">
+
+            <div class="col-6 col-md-3">
+                <h3 class="fw-bold">15,000+</h3>
+                <p>Active Listings</p>
+            </div>
+
+            <div class="col-6 col-md-3">
+                <h3 class="fw-bold">98%</h3>
+                <p>Client Satisfaction</p>
+            </div>
+
+            <div class="col-6 col-md-3">
+                <h3 class="fw-bold">500+</h3>
+                <p>Expert Agents</p>
+            </div>
+
+            <div class="col-6 col-md-3">
+                <h3 class="fw-bold">25</h3>
+                <p>Years Experience</p>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
