@@ -9,7 +9,6 @@
         border-bottom: none;
     }
 }
-/* Responsive */
 @media (max-width: 768px) {
 
     .hero-section {
@@ -39,5 +38,27 @@
 
     .hero-stats p {
         font-size: 14px;
+    }
+}
+@media (max-width: 576px) {
+    .property-img {
+        height: 230px;
+    }
+
+    .property-body {
+        padding: 20px;
+    }
+
+    .property-price {
+        font-size: 27px;
+    }
+
+    .price-sqft {
+        font-size: 14px;
+    }
+
+    .property-details,
+    .property-location {
+        font-size: 15px;
     }
 }

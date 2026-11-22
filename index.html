@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>EliteHomes</title>
     <link rel="stylesheet" href="./css/bootstrap.min.css" />
     <link rel="stylesheet" href="./css/media.css" />
     <link rel="stylesheet" href="./css/style.css" />
@@ -16,190 +16,371 @@
     />
   </head>
   <body>
+    <nav class="navbar navbar-expand-lg bg-white fixed-top">
+      <div class="container-fluid px-4">
+        <a class="navbar-brand fw-bold fs-3" href="#">EliteHomes</a>
 
-<nav class="navbar navbar-expand-lg bg-white fixed-top">
-  <div class="container-fluid px-4">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-    <a class="navbar-brand fw-bold fs-3" href="#">EliteHomes</a>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
 
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Properties
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Buy</a></li>
+                <li><a class="dropdown-item" href="#">Rent</a></li>
+                <li><a class="dropdown-item" href="#">Sell</a></li>
+              </ul>
+            </li>
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Services</a>
+            </li>
 
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Testimonials</a>
+            </li>
 
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Properties
-          </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Buy</a></li>
-            <li><a class="dropdown-item" href="#">Rent</a></li>
-            <li><a class="dropdown-item" href="#">Sell</a></li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">FAQ</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
           </ul>
-        </li>
+        </div>
+      </div>
+    </nav>
 
-        <li class="nav-item">
-          <a class="nav-link" href="#">Services</a>
-        </li>
+    <section class="hero-section">
+      <div class="hero-overlay"></div>
 
-        <li class="nav-item">
-          <a class="nav-link" href="#">Testimonials</a>
-        </li>
-
-        <li class="nav-item">
-          <a class="nav-link" href="#">FAQ</a>
-        </li>
-
-        <li class="nav-item">
-          <a class="nav-link" href="#">Contact</a>
-        </li>
-
-      </ul>
-    </div>
-  </div>
-</nav>
-
-
-<section class="hero-section">
-
-    <div class="hero-overlay"></div>
-
-    <div class="container hero-container">
-
+      <div class="container hero-container">
         <!-- Hero Heading -->
         <div class="hero-content text-center">
-            <h1>Find Your Dream Home</h1>
+          <h1>Find Your Dream Home</h1>
 
-            <p>
-                Discover exceptional properties in prime locations.
-                From modern condos to luxury estates, we help you
-                find the perfect place to call home.
-            </p>
+          <p>
+            Discover exceptional properties in prime locations. From modern
+            condos to luxury estates, we help you find the perfect place to call
+            home.
+          </p>
         </div>
 
         <!-- Search Form -->
         <div class="search-box">
-
-            <div class="row g-3">
-
-                <!-- Location -->
-                <div class="col-lg-6">
-                    <label class="form-label">Location</label>
-                    <div class="input-group">
-                        <span class="input-group-text">
-                            <i class="bi bi-geo-alt-fill"></i>
-                        </span>
-                        <input type="text" class="form-control"
-                            placeholder="Enter city, neighborhood, or ZIP code">
-                    </div>
-                </div>
-
-                <!-- Property Type -->
-                <div class="col-lg-3 col-md-6">
-                    <label class="form-label">Property Type</label>
-                    <select class="form-select">
-                        <option selected>All Types</option>
-                        <option>Apartment</option>
-                        <option>Villa</option>
-                        <option>House</option>
-                    </select>
-                </div>
-
-                <!-- Price Range -->
-                <div class="col-lg-3 col-md-6">
-                    <label class="form-label">Price Range</label>
-                    <select class="form-select">
-                        <option selected>Any Price</option>
-                        <option>Under $100k</option>
-                        <option>$100k - $500k</option>
-                        <option>Above $500k</option>
-                    </select>
-                </div>
-
-                <!-- Bedrooms -->
-                <div class="col-lg-3 col-md-6">
-                    <label class="form-label">Bedrooms</label>
-                    <select class="form-select">
-                        <option selected>Any</option>
-                        <option>1+</option>
-                        <option>2+</option>
-                        <option>3+</option>
-                        <option>4+</option>
-                    </select>
-                </div>
-
-                <!-- Bathrooms -->
-                <div class="col-lg-3 col-md-6">
-                    <label class="form-label">Bathrooms</label>
-                    <select class="form-select">
-                        <option selected>Any</option>
-                        <option>1+</option>
-                        <option>2+</option>
-                        <option>3+</option>
-                    </select>
-                </div>
-
-                <!-- Min Sq Ft -->
-                <div class="col-lg-3 col-md-6">
-                    <label class="form-label">Min Sq Ft</label>
-                    <input type="number" class="form-control"
-                        placeholder="1,000">
-                </div>
-
-                <!-- Max Sq Ft -->
-                <div class="col-lg-3 col-md-6">
-                    <label class="form-label">Max Sq Ft</label>
-                    <input type="number" class="form-control"
-                        placeholder="5,000">
-                </div>
-
-                <!-- Search Button -->
-                <div class="col-12">
-                    <button class="btn search-btn w-100">
-                        <i class="bi bi-search me-2"></i>
-                        Search Properties
-                    </button>
-                </div>
-
+          <div class="row g-3">
+            <!-- Location -->
+            <div class="col-lg-6">
+              <label class="form-label">Location</label>
+              <div class="input-group">
+                <span class="input-group-text">
+                  <i class="bi bi-geo-alt-fill"></i>
+                </span>
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Enter city, neighborhood, or ZIP code"
+                />
+              </div>
             </div>
+
+            <!-- Property Type -->
+            <div class="col-lg-3 col-md-6">
+              <label class="form-label">Property Type</label>
+              <select class="form-select">
+                <option selected>All Types</option>
+                <option>Apartment</option>
+                <option>Villa</option>
+                <option>House</option>
+              </select>
+            </div>
+
+            <!-- Price Range -->
+            <div class="col-lg-3 col-md-6">
+              <label class="form-label">Price Range</label>
+              <select class="form-select">
+                <option selected>Any Price</option>
+                <option>Under $100k</option>
+                <option>$100k - $500k</option>
+                <option>Above $500k</option>
+              </select>
+            </div>
+
+            <!-- Bedrooms -->
+            <div class="col-lg-3 col-md-6">
+              <label class="form-label">Bedrooms</label>
+              <select class="form-select">
+                <option selected>Any</option>
+                <option>1+</option>
+                <option>2+</option>
+                <option>3+</option>
+                <option>4+</option>
+              </select>
+            </div>
+
+            <!-- Bathrooms -->
+            <div class="col-lg-3 col-md-6">
+              <label class="form-label">Bathrooms</label>
+              <select class="form-select">
+                <option selected>Any</option>
+                <option>1+</option>
+                <option>2+</option>
+                <option>3+</option>
+              </select>
+            </div>
+
+            <!-- Min Sq Ft -->
+            <div class="col-lg-3 col-md-6">
+              <label class="form-label">Min Sq Ft</label>
+              <input type="number" class="form-control" placeholder="1,000" />
+            </div>
+
+            <!-- Max Sq Ft -->
+            <div class="col-lg-3 col-md-6">
+              <label class="form-label">Max Sq Ft</label>
+              <input type="number" class="form-control" placeholder="5,000" />
+            </div>
+
+            <!-- Search Button -->
+            <div class="col-12">
+              <button class="btn search-btn w-100">
+                <i class="bi bi-search me-2"></i>
+                Search Properties
+              </button>
+            </div>
+          </div>
         </div>
 
         <!-- Statistics -->
         <div class="hero-stats row text-center">
+          <div class="col-6 col-md-3">
+            <h3>15,000+</h3>
+            <p>Active Listings</p>
+          </div>
 
-            <div class="col-6 col-md-3">
-                <h3>15,000+</h3>
-                <p>Active Listings</p>
+          <div class="col-6 col-md-3">
+            <h3>98%</h3>
+            <p>Client Satisfaction</p>
+          </div>
+
+          <div class="col-6 col-md-3">
+            <h3>500+</h3>
+            <p>Expert Agents</p>
+          </div>
+
+          <div class="col-6 col-md-3">
+            <h3>25</h3>
+            <p>Years Experience</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="properties py-5">
+      <div class="container-fluid px-4">
+        <div class="row g-4">
+          <!-- Card 1 -->
+          <div class="col-12 col-md-6 col-xl-4">
+            <div class="card property-card">
+              <div class="property-img">
+                <img
+                  src="images/featured-properties-img-1.png"
+                  alt="Modern Luxury Estate"
+                />
+
+                <span class="badge featured-badge">Featured</span>
+
+                <button class="favorite-btn">
+                  <i class="fa-solid fa-heart"></i>
+                </button>
+
+                <span class="photos-count">
+                  <i class="fa-solid fa-camera"></i>24 Photos
+                </span>
+              </div>
+
+              <div class="card-body property-body">
+                <div
+                  class="d-flex justify-content-between align-items-center flex-wrap gap-2"
+                >
+                  <h2 class="property-price">$2,850,000</h2>
+                  <span class="price-sqft">Price per sq ft: $425</span>
+                </div>
+
+                <div class="property-details d-flex flex-wrap gap-2">
+                  <span>4 beds</span>
+                  <span>•</span>
+                  <span>3.5 baths</span>
+                  <span>•</span>
+                  <span>6,720 sqft</span>
+                </div>
+
+                <h5 class="property-title">Modern Luxury Estate</h5>
+
+                <p class="property-location">
+                  1234 Beverly Hills Drive, Beverly Hills, CA 90210
+                </p>
+
+                <div
+                  class="d-flex justify-content-between align-items-center flex-wrap gap-3"
+                >
+                  <div class="agent-info d-flex align-items-center gap-2">
+                    <img src="images/avatar-4.jpg" alt="John Mitchell" />
+                    <span>John Mitchell</span>
+                  </div>
+
+                  <a href="#" class="btn tour-btn">Schedule Tour</a>
+                </div>
+              </div>
             </div>
+          </div>
 
-            <div class="col-6 col-md-3">
-                <h3>98%</h3>
-                <p>Client Satisfaction</p>
+          <!-- Card 2 -->
+          <div class="col-12 col-md-6 col-xl-4">
+            <div class="card property-card">
+              <div class="property-img">
+                <img
+                  src="images/featured-properties-img-2.png"
+                  alt="Downtown Penthouse"
+                />
+
+                <span class="badge new-badge">New Listing</span>
+
+                <button class="favorite-btn">
+                  <i class="fa-solid fa-heart"></i>
+                </button>
+
+                <span class="photos-count">
+                  <i class="fa-solid fa-camera"></i>18 Photos
+                </span>
+              </div>
+
+              <div class="card-body property-body">
+                <div
+                  class="d-flex justify-content-between align-items-center flex-wrap gap-2"
+                >
+                  <h2 class="property-price">$1,425,000</h2>
+                  <span class="price-sqft">Price per sq ft: $650</span>
+                </div>
+
+                <div class="property-details d-flex flex-wrap gap-2">
+                  <span>3 beds</span>
+                  <span>•</span>
+                  <span>2.5 baths</span>
+                  <span>•</span>
+                  <span>2,192 sqft</span>
+                </div>
+
+                <h5 class="property-title">Downtown Penthouse</h5>
+
+                <p class="property-location">
+                  789 Metropolitan Ave, New York, NY 10001
+                </p>
+
+                <div
+                  class="d-flex justify-content-between align-items-center flex-wrap gap-3"
+                >
+                  <div class="agent-info d-flex align-items-center gap-2">
+                    <img src="images/avatar-3.jpg" alt="Emily Rodriguez" />
+                    <span>Emily Rodriguez</span>
+                  </div>
+
+                  <a href="#" class="btn tour-btn">Schedule Tour</a>
+                </div>
+              </div>
             </div>
+          </div>
 
-            <div class="col-6 col-md-3">
-                <h3>500+</h3>
-                <p>Expert Agents</p>
+          <!-- Card 3 -->
+          <div class="col-12 col-md-6 col-xl-4">
+            <div class="card property-card">
+              <div class="property-img position-relative">
+                <img
+                  src="images/featured-properties-img-3.png"
+                  alt="Family Suburban Home"
+                />
+
+                <span class="badge price-drop-badge position-absolute">Price Drop</span>
+
+                <button class="favorite-btn">
+                  <i class="fa-solid fa-heart"></i>
+                </button>
+
+                <span class="photos-count">
+                  <i class="fa-solid fa-camera"></i>32 Photos
+                </span>
+              </div>
+
+              <div class="card-body property-body">
+                <div
+                  class="d-flex justify-content-between align-items-center flex-wrap gap-2"
+                >
+                  <h2 class="property-price">$875,000</h2>
+                  <span class="old-price">$925,000</span>
+                </div>
+
+                <div class="property-details d-flex flex-wrap gap-2">
+                  <span>5 beds</span>
+                  <span>•</span>
+                  <span>4 baths</span>
+                  <span>•</span>
+                  <span>3,845 sqft</span>
+                </div>
+
+                <h5 class="property-title">Family Suburban Home</h5>
+
+                <p class="property-location">
+                  456 Oak Tree Lane, Austin, TX 78701
+                </p>
+
+                <div
+                  class="d-flex justify-content-between align-items-center flex-wrap gap-3"
+                >
+                  <div class="agent-info d-flex align-items-center gap-2">
+                    <img src="images/avatar-2.jpg" alt="Michael Chen" />
+                    <span>Michael Chen</span>
+                  </div>
+
+                  <a href="#" class="btn tour-btn">Schedule Tour</a>
+                </div>
+              </div>
             </div>
-
-            <div class="col-6 col-md-3">
-                <h3>25</h3>
-                <p>Years Experience</p>
-            </div>
-
+          </div>
         </div>
 
-    </div>
-</section>
+        <!-- View All Button -->
+        <div class="text-center mt-5">
+          <a href="#" class="btn view-all-btn">
+            View All Properties
+<i class="fa-solid fa-arrow-right"></i>          </a>
+        </div>
+      </div>
+    </section>
 
-<script src="./js/bootstrap.bundle.min.js"></script>
-
-
+    <script src="./js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
