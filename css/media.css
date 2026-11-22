@@ -9,3 +9,35 @@
         border-bottom: none;
     }
 }
+/* Responsive */
+@media (max-width: 768px) {
+
+    .hero-section {
+        padding: 110px 0 40px;
+    }
+
+    .hero-content h1 {
+        margin-bottom: 20px;
+    }
+
+    .hero-content p {
+        font-size: 16px;
+        margin-bottom: 30px;
+    }
+
+    .search-box {
+        padding: 20px;
+    }
+
+    .hero-stats {
+        margin-top: 35px;
+    }
+
+    .hero-stats h3 {
+        font-size: 25px;
+    }
+
+    .hero-stats p {
+        font-size: 14px;
+    }
+}
