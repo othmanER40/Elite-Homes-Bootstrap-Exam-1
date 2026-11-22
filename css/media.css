@@ -1,0 +1,11 @@
+@media (max-width: 991px) {
+    .navbar-nav {
+        align-items: flex-start !important;
+        gap: 5px !important;
+        padding: 15px 0;
+    }
+
+    .navbar-nav .nav-link.active {
+        border-bottom: none;
+    }
+}
