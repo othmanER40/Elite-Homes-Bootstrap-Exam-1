@@ -804,3 +804,23 @@
     padding: 40px 5% 100px;
     overflow: visible;
 }
+
+/* Help section*/
+.cont-help{width: 80%; margin: auto; }
+.accordion-item .accordion-button {
+    font-size: 27px !important;
+    font-weight: 700 !important;
+}
+.faq {
+    padding: 20px 0;
+}
+
+/* Accordion Item */
+.faq .accordion-item {
+    border: none;
+    border-radius: 18px !important;
+    overflow: hidden;
+    margin-bottom: 27px;
+    background-color: #fff;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.10);
+}

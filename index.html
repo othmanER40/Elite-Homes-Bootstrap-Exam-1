@@ -203,7 +203,9 @@
     <section class="properties py-5">
       <div class="container-fluid px-4">
         <!-- Section Header -->
-        <div class="properties-header text-center">
+        <div
+          class="properties-header text-center d-flex flex-column justify-content-center align-content-center text-center"
+        >
           <!-- Premium Label -->
           <div class="premium-label">
             <span></span>
@@ -215,7 +217,7 @@
           <h2>Featured Properties</h2>
 
           <!-- Description -->
-          <p class="section-description">
+          <p class="section-descriptionnn">
             Discover our handpicked selection of premium properties in the most
             desirable locations
           </p>
@@ -898,209 +900,420 @@
 
           <h2 class="section-title">What Our Clients Say</h2>
 
-          <p class="section-descriptionn text-white fs-3 ">
+          <p class="section-descriptionn text-white fs-3">
             Hear from satisfied homeowners who found their dream properties with
             <br />
             EliteHomes
           </p>
         </div>
 
-<div class="slider text-center ">
+        <div class="slider text-center">
+          <div id="testimonialsCarousel" class="carousel slide">
+            <!-- Indicators -->
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#testimonialsCarousel"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
 
-  <div id="testimonialsCarousel" class="carousel slide">
+              <button
+                type="button"
+                data-bs-target="#testimonialsCarousel"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
 
-    <!-- Indicators -->
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#testimonialsCarousel"
-        data-bs-slide-to="0" class="active"
-        aria-current="true" aria-label="Slide 1"></button>
+              <button
+                type="button"
+                data-bs-target="#testimonialsCarousel"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
 
-      <button type="button" data-bs-target="#testimonialsCarousel"
-        data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button
+                type="button"
+                data-bs-target="#testimonialsCarousel"
+                data-bs-slide-to="3"
+                aria-label="Slide 4"
+              ></button>
+            </div>
 
-      <button type="button" data-bs-target="#testimonialsCarousel"
-        data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <!-- Carousel Inner -->
+            <div class="carousel-inner my-5">
+              <!-- Slide 1 -->
+              <div class="carousel-item active">
+                <div class="testimonial-card">
+                  <div class="rating">
+                    <div class="stars">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <span>5.0 out of 5</span>
+                  </div>
 
-      <button type="button" data-bs-target="#testimonialsCarousel"
-        data-bs-slide-to="3" aria-label="Slide 4"></button>
+                  <p class="testimonial-text">
+                    "Selling our Manhattan penthouse was stress-free thanks to
+                    EliteHomes. They marketed it beautifully, brought qualified
+                    buyers, and we sold for 15% above asking price in just 10
+                    days. Their professional photography and staging made all
+                    the difference."
+                  </p>
+
+                  <div class="client-info">
+                    <img src="images/avatar-3.jpg" alt="Amanda Chen" />
+
+                    <div>
+                      <h4>Amanda Chen</h4>
+                      <p>Manhattan Seller</p>
+                      <span>Sold $3.2M Penthouse</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Slide 2 -->
+              <div class="carousel-item">
+                <div class="testimonial-card">
+                  <div class="rating">
+                    <div class="stars">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <span>5.0 out of 5</span>
+                  </div>
+
+                  <p class="testimonial-text">
+                    "As first-time investors, we were nervous about entering the
+                    real estate market. The EliteHomes investment team provided
+                    incredible guidance and helped us build a portfolio that's
+                    already generating 18% annual returns. Their expertise is
+                    unmatched."
+                  </p>
+
+                  <div class="client-info">
+                    <img src="images/avatar-3.jpg" alt="David Rodriguez" />
+
+                    <div>
+                      <h4>David Rodriguez</h4>
+                      <p>Real Estate Investor</p>
+                      <span>$1.2M Investment Portfolio</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Slide 3 -->
+              <div class="carousel-item">
+                <div class="testimonial-card">
+                  <div class="rating">
+                    <div class="stars">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <span>5.0 out of 5</span>
+                  </div>
+
+                  <p class="testimonial-text">
+                    "Our company needed to relocate to a larger office space
+                    quickly. EliteHomes' commercial team found us the perfect
+                    building in downtown Austin with flexible lease terms and
+                    great amenities. They handled everything professionally and
+                    efficiently."
+                  </p>
+
+                  <div class="client-info">
+                    <img src="images/avatar-3.jpg" alt="Michael Foster" />
+
+                    <div>
+                      <h4>Michael Foster</h4>
+                      <p>CEO, TechStart Inc.</p>
+                      <span>15,000 sq ft Office Lease</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Slide 4 -->
+              <div class="carousel-item">
+                <div class="testimonial-card">
+                  <div class="rating">
+                    <div class="stars">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <span>5.0 out of 5</span>
+                  </div>
+
+                  <p class="testimonial-text">
+                    "EliteHomes made our home buying experience absolutely
+                    seamless. Sarah and her team went above and beyond to help
+                    us find the perfect family home in Beverly Hills. Their
+                    market knowledge and negotiation skills saved us over
+                    $100,000 on our purchase. We couldn't be happier!"
+                  </p>
+
+                  <div class="client-info">
+                    <img src="images/avatar-3.jpg" alt="Jennifer Thompson" />
+
+                    <div>
+                      <h4>Jennifer &amp; Mark Thompson</h4>
+                      <p>Beverly Hills Homeowners</p>
+                      <span>Purchased $2.8M Family Estate</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Previous Button -->
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#testimonialsCarousel"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+
+              <span class="visually-hidden">Previous</span>
+            </button>
+
+            <!-- Next Button -->
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#testimonialsCarousel"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="help">
+      <div class="container-fluid cont-help py-5">
+        <div class="help-content text-center d-flex flex-column align-items-center justify-content-center">
+          <div class="section-subtitle">
+            <span>HELP CENTER</span>
+          </div>
+
+          <h2 class="section-title">Frequently Asked Questions</h2>
+
+          <p class="section-description">
+            Get answers to the most common questions about buying, selling, and
+            <br />
+            investing in real estate
+          </p>
+        </div>
+
+
+<div class="faq">
+
+  <div class="accordion" id="accordionExample">
+
+    <!-- Question 1 -->
+    <div class="accordion-item my-3">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#collapseOne"
+          aria-expanded="false"
+          aria-controls="collapseOne">
+          How do I know if I'm ready to buy a home?
+        </button>
+      </h2>
+
+      <div id="collapseOne" class="accordion-collapse collapse"
+        data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          You're ready to buy a home when you have stable income,
+          a good credit score (typically 620+), a down payment
+          saved (usually 10-20% of the home price), and you plan
+          to stay in the area for at least 3-5 years. Our team can
+          help assess your financial readiness and connect you
+          with mortgage pre-approval services.
+        </div>
+      </div>
     </div>
 
-    <!-- Carousel Inner -->
-    <div class="carousel-inner my-5">
+    <!-- Question 2 -->
+    <div class="accordion-item my-3">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#collapseTwo"
+          aria-expanded="false"
+          aria-controls="collapseTwo">
+          What's the best time of year to sell my home?
+        </button>
+      </h2>
 
-      <!-- Slide 1 -->
-      <div class="carousel-item active">
-
-        <div class="testimonial-card">
-
-          <div class="rating">
-            <div class="stars">
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-            </div>
-            <span>5.0 out of 5</span>
-          </div>
-
-          <p class="testimonial-text">
-            "Selling our Manhattan penthouse was stress-free thanks to
-            EliteHomes. They marketed it beautifully, brought qualified
-            buyers, and we sold for 15% above asking price in just 10 days.
-            Their professional photography and staging made all the difference."
-          </p>
-
-          <div class="client-info">
-            <img src="images/avatar-3.jpg" alt="Amanda Chen">
-
-            <div>
-              <h4>Amanda Chen</h4>
-              <p>Manhattan Seller</p>
-              <span>Sold $3.2M Penthouse</span>
-            </div>
-          </div>
-
+      <div id="collapseTwo" class="accordion-collapse collapse"
+        data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          Spring and early summer (March through June) are
+          traditionally the best times to sell, as buyers are
+          more active and homes show better with good weather.
+          However, market conditions, local factors, and your
+          personal timeline are more important than the season.
+          We can help you determine the optimal timing based on
+          current market conditions in your area.
         </div>
       </div>
-
-      <!-- Slide 2 -->
-      <div class="carousel-item">
-
-        <div class="testimonial-card">
-
-          <div class="rating">
-            <div class="stars">
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-            </div>
-            <span>5.0 out of 5</span>
-          </div>
-
-          <p class="testimonial-text">
-            "As first-time investors, we were nervous about entering the real
-            estate market. The EliteHomes investment team provided incredible
-            guidance and helped us build a portfolio that's already generating
-            18% annual returns. Their expertise is unmatched."
-          </p>
-
-          <div class="client-info">
-            <img src="images/avatar-3.jpg" alt="David Rodriguez">
-
-            <div>
-              <h4>David Rodriguez</h4>
-              <p>Real Estate Investor</p>
-              <span>$1.2M Investment Portfolio</span>
-            </div>
-          </div>
-
-        </div>
-      </div>
-
-      <!-- Slide 3 -->
-      <div class="carousel-item">
-
-        <div class="testimonial-card">
-
-          <div class="rating">
-            <div class="stars">
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-            </div>
-            <span>5.0 out of 5</span>
-          </div>
-
-          <p class="testimonial-text">
-            "Our company needed to relocate to a larger office space quickly.
-            EliteHomes' commercial team found us the perfect building in
-            downtown Austin with flexible lease terms and great amenities.
-            They handled everything professionally and efficiently."
-          </p>
-
-          <div class="client-info">
-            <img src="images/avatar-3.jpg" alt="Michael Foster">
-
-            <div>
-              <h4>Michael Foster</h4>
-              <p>CEO, TechStart Inc.</p>
-              <span>15,000 sq ft Office Lease</span>
-            </div>
-          </div>
-
-        </div>
-      </div>
-
-      <!-- Slide 4 -->
-      <div class="carousel-item">
-
-        <div class="testimonial-card">
-
-          <div class="rating">
-            <div class="stars">
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-            </div>
-            <span>5.0 out of 5</span>
-          </div>
-
-          <p class="testimonial-text">
-            "EliteHomes made our home buying experience absolutely seamless.
-            Sarah and her team went above and beyond to help us find the
-            perfect family home in Beverly Hills. Their market knowledge and
-            negotiation skills saved us over $100,000 on our purchase.
-            We couldn't be happier!"
-          </p>
-
-          <div class="client-info">
-            <img src="images/avatar-3.jpg" alt="Jennifer Thompson">
-
-            <div>
-              <h4>Jennifer &amp; Mark Thompson</h4>
-              <p>Beverly Hills Homeowners</p>
-              <span>Purchased $2.8M Family Estate</span>
-            </div>
-          </div>
-
-        </div>
-      </div>
-
     </div>
 
-    <!-- Previous Button -->
-    <button class="carousel-control-prev"
-      type="button"
-      data-bs-target="#testimonialsCarousel"
-      data-bs-slide="prev">
+    <!-- Question 3 -->
+    <div class="accordion-item my-3">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#collapseThree"
+          aria-expanded="false"
+          aria-controls="collapseThree">
+          How much should I offer on a house?
+        </button>
+      </h2>
 
-      <span class="carousel-control-prev-icon"
-        aria-hidden="true"></span>
+      <div id="collapseThree" class="accordion-collapse collapse"
+        data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          Your offer should be based on comparable sales in the
+          area, the home's condition, current market conditions,
+          and your budget. In competitive markets, you might need
+          to offer at or above asking price. Our agents will
+          provide a detailed comparative market analysis (CMA)
+          to help you make a competitive yet reasonable offer.
+        </div>
+      </div>
+    </div>
 
-      <span class="visually-hidden">Previous</span>
-    </button>
+    <!-- Question 4 -->
+    <div class="accordion-item my-3">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#collapseFour"
+          aria-expanded="false"
+          aria-controls="collapseFour">
+          What are closing costs and who pays them?
+        </button>
+      </h2>
 
-    <!-- Next Button -->
-    <button class="carousel-control-next"
-      type="button"
-      data-bs-target="#testimonialsCarousel"
-      data-bs-slide="next">
+      <div id="collapseFour" class="accordion-collapse collapse"
+        data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          Closing costs are fees associated with finalizing a
+          real estate transaction. They may include title fees,
+          attorney fees, taxes, loan origination fees, and other
+          expenses. Both buyers and sellers may have closing
+          costs depending on the agreement and local regulations.
+        </div>
+      </div>
+    </div>
 
-      <span class="carousel-control-next-icon"
-        aria-hidden="true"></span>
+    <!-- Question 5 -->
+    <div class="accordion-item my-3">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#collapseFive"
+          aria-expanded="false"
+          aria-controls="collapseFive">
+          Should I get a home inspection?
+        </button>
+      </h2>
 
-      <span class="visually-hidden">Next</span>
-    </button>
+      <div id="collapseFive" class="accordion-collapse collapse"
+        data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          Yes, a professional home inspection is highly
+          recommended. It helps identify potential structural,
+          electrical, plumbing, and other issues before you
+          finalize your purchase. This gives you a better
+          understanding of the property's condition and helps
+          you make an informed decision.
+        </div>
+      </div>
+    </div>
+
+    <!-- Question 6 -->
+    <div class="accordion-item my-3">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#collapseSix"
+          aria-expanded="false"
+          aria-controls="collapseSix">
+          How long does it take to buy or sell a home?
+        </button>
+      </h2>
+
+      <div id="collapseSix" class="accordion-collapse collapse"
+        data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          For buyers, the process typically takes 30-45 days
+          from offer acceptance to closing, though finding the
+          right home can take weeks or months. For sellers, the
+          average time on market varies by location and price
+          range, but our properties typically sell within
+          28 days. We'll provide realistic timelines based on
+          your specific situation and local market conditions.
+        </div>
+      </div>
+    </div>
+
+    <!-- Question 7 -->
+    <div class="accordion-item my-3 rounded-3">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#collapseSeven"
+          aria-expanded="false"
+          aria-controls="collapseSeven">
+          What makes EliteHomes different from other real estate companies?
+        </button>
+      </h2>
+
+      <div id="collapseSeven" class="accordion-collapse collapse"
+        data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          We combine cutting-edge technology with personalized
+          service, offering virtual tours, AI-powered property
+          matching, comprehensive market analytics, and a
+          dedicated team of experts for each client. Our 98%
+          client satisfaction rate and average 21-day selling
+          time speak to our commitment to excellence and results.
+        </div>
+      </div>
+    </div>
 
   </div>
 </div>
+
 
       </div>
     </section>

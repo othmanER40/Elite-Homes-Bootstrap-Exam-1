@@ -141,7 +141,7 @@
   #testimonialsCarousel .carousel-control-prev,
   #testimonialsCarousel .carousel-control-next {
     display: none !important;
-  }
+  }}
 @media (max-width: 576px) {
   .carousel-control-prev,
   .carousel-control-next {
