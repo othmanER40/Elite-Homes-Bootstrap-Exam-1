@@ -1,81 +1,189 @@
 @media (max-width: 991px) {
-    .navbar-nav {
-        align-items: flex-start !important;
-        gap: 5px !important;
-        padding: 15px 0;
-    }
+  .navbar-nav {
+    align-items: flex-start !important;
+    gap: 5px !important;
+    padding: 15px 0;
+  }
 
-    .navbar-nav .nav-link.active {
-        border-bottom: none;
-    }
+  .navbar-nav .nav-link.active {
+    border-bottom: none;
+  }
 }
 @media (max-width: 768px) {
-
-    .hero-section {
-        padding: 110px 0 40px;
-    }
-
     .hero-content h1 {
-        margin-bottom: 20px;
-    }
+    font-size: clamp(1.9rem, 8vw, 2.6rem);
+    line-height: 1.2;
+  }
 
-    .hero-content p {
-        font-size: 16px;
-        margin-bottom: 30px;
-    }
+  .properties-header h2,
+  .section-title {
+    font-size: clamp(28px, 8vw, 40px);
+    line-height: 1.2;
+    margin: 15px 0;
+  }
 
-    .search-box {
-        padding: 20px;
-    }
+  .properties-header {
+    margin-bottom: 40px;
+  }
 
-    .hero-stats {
-        margin-top: 35px;
-    }
+  .buying-content h2 {
+    font-size: clamp(24px, 6.5vw, 30px);
+    margin-bottom: 20px;
+  }
 
-    .hero-stats h3 {
-        font-size: 25px;
-    }
+  .buying-feature h4 {
+    font-size: clamp(18px, 5vw, 21px);
+    margin: 2px 0 8px;
+  }
 
-    .hero-stats p {
-        font-size: 14px;
-    }
-}
+  .property-title {
+    font-size: 19px;
+  }
+
+  .success-card h3 {
+    font-size: 24px;
+  }
+
+  .hero-stats h3 {
+    font-size: 24px;
+  }
+
+  .section-description,
+  .buying-description {
+    font-size: clamp(16px, 4.2vw, 18px);
+    line-height: 1.5;
+  }
+  .hero-section {
+    padding: 110px 0 40px;
+  }
+
+  .hero-content h1 {
+    margin-bottom: 20px;
+  }
+
+  .hero-content p {
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+
+  .search-box {
+    padding: 20px;
+  }
+
+  .hero-stats {
+    margin-top: 35px;
+  }
+
+  .hero-stats h3 {
+    font-size: 25px;
+  }
+
+  .hero-stats p {
+    font-size: 14px;
+  }
+.testimonial-card {
+    width: 90% !important;
+    margin: 0 auto !important;
+    padding: 25px 20px !important;
+    min-height: auto;
+    text-align: left !important;
+  }
+
+  .rating {
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 8px 15px;
+    margin-bottom: 20px;
+  }
+
+  .stars {
+    font-size: 20px;
+  }
+
+  .testimonial-text {
+    font-size: 17px;
+    line-height: 1.6;
+    margin-bottom: 25px;
+    text-align: left;
+  }
+
+  /* Stack avatar on top, everything centered */
+  .client-info {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 8px;
+  }
+
+  .client-info img {
+    width: 65px;
+    height: 65px;
+  }
+
+  .client-info h4 {
+    font-size: 18px;
+    margin-bottom: 2px;
+  }
+
+  .client-info p {
+    font-size: 15px;
+    margin-bottom: 2px;
+  }
+
+  .client-info span {
+    font-size: 14px;
+  }
+
+  .slider {
+    padding: 0 !important;
+  }
+
+  #testimonialsCarousel .carousel-control-prev,
+  #testimonialsCarousel .carousel-control-next {
+    display: none !important;
+  }
 @media (max-width: 576px) {
-    .property-img {
-        height: 230px;
-    }
+  .carousel-control-prev,
+  .carousel-control-next {
+    display: none !important;
+  }
 
-    .property-body {
-        padding: 20px;
-    }
 
-    .property-price {
-        font-size: 27px;
-    }
+  .property-img {
+    height: 230px;
+  }
 
-    .price-sqft {
-        font-size: 14px;
-    }
+  .property-body {
+    padding: 20px;
+  }
 
-    .property-details,
-    .property-location {
-        font-size: 15px;
-    }
-    .section-title {
-        font-size: 40px;
-    }
+  .property-price {
+    font-size: 27px;
+  }
 
-    .section-description {
-        font-size: 17px;
-    }
+  .price-sqft {
+    font-size: 14px;
+  }
 
-    .section-subtitle::before,
-    .section-subtitle::after {
-        width: 40px;
-    }
+  .property-details,
+  .property-location {
+    font-size: 15px;
+  }
+  .section-title {
+    font-size: 40px;
+  }
 
-    .section-subtitle span {
-        font-size: 12px;
-        padding: 10px 18px;
-    }
+  .section-description {
+    font-size: 17px;
+  }
+
+  .section-subtitle::before,
+  .section-subtitle::after {
+    width: 40px;
+  }
+
+  .section-subtitle span {
+    font-size: 12px;
+    padding: 10px 18px;
+  }
 }

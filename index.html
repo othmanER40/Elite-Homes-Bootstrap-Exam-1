@@ -418,428 +418,686 @@
           </p>
         </div>
 
-<div class="options">
-  <ul class="nav nav-tabs" id="myTab" role="tablist">
+        <div class="options">
+          <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link"
+                id="buying-tab"
+                data-bs-toggle="tab"
+                data-bs-target="#buying-pane"
+                type="button"
+                role="tab"
+              >
+                <i class="fa-solid fa-house"></i>
+                Buying
+              </button>
+            </li>
 
-    <li class="nav-item" role="presentation">
-      <button class="nav-link" id="buying-tab"
-        data-bs-toggle="tab" data-bs-target="#buying-pane"
-        type="button" role="tab">
-        <i class="fa-solid fa-house"></i>
-        Buying
-      </button>
-    </li>
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link"
+                id="selling-tab"
+                data-bs-toggle="tab"
+                data-bs-target="#selling-pane"
+                type="button"
+                role="tab"
+              >
+                <i class="fa-solid fa-dollar-sign"></i>
+                Selling
+              </button>
+            </li>
 
-    <li class="nav-item" role="presentation">
-      <button class="nav-link" id="selling-tab"
-        data-bs-toggle="tab" data-bs-target="#selling-pane"
-        type="button" role="tab">
-        <i class="fa-solid fa-dollar-sign"></i>
-        Selling
-      </button>
-    </li>
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link"
+                id="renting-tab"
+                data-bs-toggle="tab"
+                data-bs-target="#renting-pane"
+                type="button"
+                role="tab"
+              >
+                <i class="fa-solid fa-key"></i>
+                Renting
+              </button>
+            </li>
 
-    <li class="nav-item" role="presentation">
-      <button class="nav-link" id="renting-tab"
-        data-bs-toggle="tab" data-bs-target="#renting-pane"
-        type="button" role="tab">
-        <i class="fa-solid fa-key"></i>
-        Renting
-      </button>
-    </li>
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link"
+                id="investing-tab"
+                data-bs-toggle="tab"
+                data-bs-target="#investing-pane"
+                type="button"
+                role="tab"
+              >
+                <i class="fa-solid fa-chart-bar"></i>
+                Investing
+              </button>
+            </li>
 
-    <li class="nav-item" role="presentation">
-      <button class="nav-link" id="investing-tab"
-        data-bs-toggle="tab" data-bs-target="#investing-pane"
-        type="button" role="tab">
-        <i class="fa-solid fa-chart-bar"></i>
-        Investing
-      </button>
-    </li>
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link active"
+                id="commercial-tab"
+                data-bs-toggle="tab"
+                data-bs-target="#commercial-pane"
+                type="button"
+                role="tab"
+                aria-selected="true"
+              >
+                <i class="fa-solid fa-building"></i>
+                Commercial
+              </button>
+            </li>
+          </ul>
 
-    <li class="nav-item" role="presentation">
-      <button class="nav-link active" id="commercial-tab"
-        data-bs-toggle="tab" data-bs-target="#commercial-pane"
-        type="button" role="tab" aria-selected="true">
-        <i class="fa-solid fa-building"></i>
-        Commercial
-      </button>
-    </li>
+          <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade" id="buying-pane" role="tabpanel">
+              <div class="buying-section">
+                <div class="row align-items-center g-5">
+                  <!-- Left Content -->
+                  <div class="col-lg-6">
+                    <div class="buying-content">
+                      <h2>Home Buying Made Simple</h2>
 
-  </ul>
+                      <p class="buying-description">
+                        Our expert team guides you through every step of the
+                        home buying process, from initial search to closing day.
+                      </p>
 
-  <div class="tab-content" id="myTabContent">
+                      <!-- Feature 1 -->
+                      <div class="buying-feature">
+                        <div class="feature-icon">
+                          <i class="fa-solid fa-magnifying-glass"></i>
+                        </div>
 
+                        <div>
+                          <h4>Property Search</h4>
+                          <p>
+                            Access exclusive listings and get notified of new
+                            properties that match your criteria.
+                          </p>
+                        </div>
+                      </div>
 
-<div class="tab-pane fade" id="buying-pane" role="tabpanel">
+                      <!-- Feature 2 -->
+                      <div class="buying-feature">
+                        <div class="feature-icon">
+                          <i class="fa-solid fa-calculator"></i>
+                        </div>
 
-  <div class="buying-section">
-    <div class="row align-items-center g-5">
+                        <div>
+                          <h4>Financial Planning</h4>
+                          <p>
+                            Get pre-approved for mortgages and understand your
+                            budget with our financial experts.
+                          </p>
+                        </div>
+                      </div>
 
-      <!-- Left Content -->
-      <div class="col-lg-6">
-        <div class="buying-content">
+                      <!-- Feature 3 -->
+                      <div class="buying-feature">
+                        <div class="feature-icon">
+                          <i class="fa-solid fa-handshake"></i>
+                        </div>
 
-          <h2>Home Buying Made Simple</h2>
+                        <div>
+                          <h4>Negotiation Support</h4>
+                          <p>
+                            Our skilled negotiators ensure you get the best
+                            possible deal on your dream home.
+                          </p>
+                        </div>
+                      </div>
 
-          <p class="buying-description">
-            Our expert team guides you through every step of the home buying
-            process, from initial search to closing day.
+                      <button class="buying-btn">Start Your Search</button>
+                    </div>
+                  </div>
+
+                  <!-- Right Image -->
+                  <div class="col-lg-6">
+                    <div class="position-relative">
+                      <img
+                        src="images/service-img-2.webp"
+                        alt="Happy family buying a home"
+                        class="img-fluid w-100 rounded-4 shadow"
+                      />
+
+                      <!-- Success Card -->
+                      <div
+                        class="position-absolute bg-white rounded-3 shadow p-4 translate-middle-y ms-3 Success Card fs-4"
+                      >
+                        <h3 class="text-primary fw-bold mb-1">98%</h3>
+
+                        <p class="text-secondary mb-0">Success Rate</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="tab-pane fade" id="selling-pane" role="tabpanel">
+              <div class="buying-section">
+                <div class="row align-items-center g-5">
+                  <div class="col-lg-6">
+                    <div class="buying-content">
+                      <h2>Maximize Your Home's Value</h2>
+
+                      <p class="buying-description">
+                        Sell your property quickly and for the best price with
+                        our comprehensive marketing strategy and expert
+                        guidance.
+                      </p>
+
+                      <div class="buying-feature">
+                        <div class="feature-icon">
+                          <i class="fa-solid fa-chart-line"></i>
+                        </div>
+                        <div>
+                          <h4>Market Analysis</h4>
+                          <p>
+                            Get a comprehensive market analysis to price your
+                            home competitively.
+                          </p>
+                        </div>
+                      </div>
+
+                      <div class="buying-feature">
+                        <div class="feature-icon">
+                          <i class="fa-solid fa-camera"></i>
+                        </div>
+                        <div>
+                          <h4>Professional Marketing</h4>
+                          <p>
+                            High-quality photography, virtual tours, and
+                            multi-channel marketing campaigns.
+                          </p>
+                        </div>
+                      </div>
+
+                      <div class="buying-feature">
+                        <div class="feature-icon">
+                          <i class="fa-solid fa-users"></i>
+                        </div>
+                        <div>
+                          <h4>Buyer Screening</h4>
+                          <p>
+                            We pre-qualify buyers to ensure serious inquiries
+                            and smooth transactions.
+                          </p>
+                        </div>
+                      </div>
+
+                      <button class="buying-btn">Get Home Valuation</button>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-6">
+                    <div class="position-relative">
+                      <img
+                        src="images/service-img-3.webp"
+                        class="img-fluid w-100 rounded-4 shadow buying-img"
+                        alt="Selling Property"
+                      />
+
+                      <div
+                        class="position-absolute top-100 end-0 translate-middle-y me-3 bg-white rounded-3 shadow p-4"
+                      >
+                        <h3 class="text-success fw-bold mb-1">21 days</h3>
+                        <p class="text-secondary mb-0">Avg. Time to Sell</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="tab-pane fade" id="renting-pane" role="tabpanel">
+              <div class="buying-section">
+                <div class="row align-items-center g-5">
+                  <div class="col-lg-6">
+                    <div class="buying-content">
+                      <h2>Premium Rental Properties</h2>
+
+                      <p class="buying-description">
+                        Find your perfect rental home with our extensive
+                        portfolio of quality properties and personalized
+                        service.
+                      </p>
+
+                      <div class="buying-feature">
+                        <div class="feature-icon">
+                          <i class="fa-solid fa-map-location-dot"></i>
+                        </div>
+                        <div>
+                          <h4>Prime Locations</h4>
+                          <p>
+                            Access rentals in the most desirable neighborhoods
+                            and communities.
+                          </p>
+                        </div>
+                      </div>
+
+                      <div class="buying-feature">
+                        <div class="feature-icon">
+                          <i class="fa-solid fa-shield-halved"></i>
+                        </div>
+                        <div>
+                          <h4>Verified Properties</h4>
+                          <p>
+                            All our rental properties are thoroughly inspected
+                            and verified for quality.
+                          </p>
+                        </div>
+                      </div>
+
+                      <div class="buying-feature">
+                        <div class="feature-icon">
+                          <i class="fa-solid fa-screwdriver-wrench"></i>
+                        </div>
+                        <div>
+                          <h4>24/7 Support</h4>
+                          <p>
+                            Round-the-clock maintenance and tenant support
+                            services.
+                          </p>
+                        </div>
+                      </div>
+
+                      <button class="buying-btn">Browse Rentals</button>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-6">
+                    <div class="position-relative">
+                      <img
+                        src="images/service-img-4.png"
+                        class="img-fluid w-100 rounded-4 shadow buying-img"
+                        alt="Rental Property"
+                      />
+
+                      <div
+                        class="position-absolute top-100 start-0 translate-middle-y ms-3 bg-white rounded-3 shadow p-4"
+                      >
+                        <h3 class="text-primary fw-bold mb-1">5,000+</h3>
+                        <p class="text-secondary mb-0">Available Rentals</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="tab-pane fade" id="investing-pane" role="tabpanel">
+              <div class="buying-section">
+                <div class="row align-items-center g-5">
+                  <div class="col-lg-6">
+                    <div class="buying-content">
+                      <h2>Real Estate Investment</h2>
+
+                      <p class="buying-description">
+                        Build wealth through strategic real estate investments
+                        with our expert guidance and market insights.
+                      </p>
+
+                      <div class="buying-feature">
+                        <div class="feature-icon">
+                          <i class="fa-solid fa-chart-pie"></i>
+                        </div>
+                        <div>
+                          <h4>Portfolio Analysis</h4>
+                          <p>
+                            Comprehensive analysis of investment opportunities
+                            and portfolio optimization.
+                          </p>
+                        </div>
+                      </div>
+
+                      <div class="buying-feature">
+                        <div class="feature-icon">
+                          <i class="fa-solid fa-money-bill-wave"></i>
+                        </div>
+                        <div>
+                          <h4>ROI Projections</h4>
+                          <p>
+                            Detailed return on investment calculations and
+                            market forecasting.
+                          </p>
+                        </div>
+                      </div>
+
+                      <div class="buying-feature">
+                        <div class="feature-icon">
+                          <i class="fa-solid fa-gear"></i>
+                        </div>
+                        <div>
+                          <h4>Property Management</h4>
+                          <p>
+                            Full-service property management for hands-off
+                            investment experience.
+                          </p>
+                        </div>
+                      </div>
+
+                      <button class="buying-btn">Explore Investments</button>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-6">
+                    <div class="position-relative">
+                      <img
+                        src="images/service-img-5.png"
+                        class="img-fluid w-100 rounded-4 shadow buying-img"
+                        alt="Real Estate Investment"
+                      />
+
+                      <div
+                        class="position-absolute top-100 end-0 translate-middle-y me-3 bg-white rounded-3 shadow p-4"
+                      >
+                        <h3 class="text-warning fw-bold mb-1">15%</h3>
+                        <p class="text-secondary mb-0">Avg. Annual ROI</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="tab-pane fade show active"
+              id="commercial-pane"
+              role="tabpanel"
+            >
+              <div class="buying-section">
+                <div class="row align-items-center g-5">
+                  <div class="col-lg-6">
+                    <div class="buying-content">
+                      <h2>Commercial Real Estate</h2>
+
+                      <p class="buying-description">
+                        Expert commercial real estate services for businesses,
+                        investors, and developers.
+                      </p>
+
+                      <div class="buying-feature">
+                        <div class="feature-icon">
+                          <i class="fa-solid fa-building"></i>
+                        </div>
+                        <div>
+                          <h4>Office Spaces</h4>
+                          <p>
+                            Prime office locations for businesses of all sizes
+                            and industries.
+                          </p>
+                        </div>
+                      </div>
+
+                      <div class="buying-feature">
+                        <div class="feature-icon">
+                          <i class="fa-solid fa-warehouse"></i>
+                        </div>
+                        <div>
+                          <h4>Industrial Properties</h4>
+                          <p>
+                            Warehouses, manufacturing facilities, and
+                            distribution centers.
+                          </p>
+                        </div>
+                      </div>
+
+                      <div class="buying-feature">
+                        <div class="feature-icon">
+                          <i class="fa-solid fa-store"></i>
+                        </div>
+                        <div>
+                          <h4>Retail Spaces</h4>
+                          <p>
+                            High-traffic retail locations and shopping center
+                            opportunities.
+                          </p>
+                        </div>
+                      </div>
+
+                      <button class="buying-btn">
+                        View Commercial Properties
+                      </button>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-6">
+                    <div class="position-relative">
+                      <img
+                        src="images/service-img-2.webp"
+                        class="img-fluid w-100 rounded-4 shadow buying-img"
+                        alt="Commercial Real Estate"
+                      />
+
+                      <div
+                        class="position-absolute top-100 start-0 translate-middle-y ms-3 bg-white rounded-3 shadow p-4"
+                      >
+                        <h3 class="text-primary fw-bold mb-1">$2.5B</h3>
+                        <p class="text-secondary mb-0">Commercial Volume</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="clients py-5">
+      <div class="container-fluid">
+        <div class="testimonials-content text-center">
+          <div class="section-subtitle">
+            <span>CLIENT STORIES</span>
+          </div>
+
+          <h2 class="section-title">What Our Clients Say</h2>
+
+          <p class="section-descriptionn text-white fs-3 ">
+            Hear from satisfied homeowners who found their dream properties with
+            <br />
+            EliteHomes
+          </p>
+        </div>
+
+<div class="slider text-center ">
+
+  <div id="testimonialsCarousel" class="carousel slide">
+
+    <!-- Indicators -->
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#testimonialsCarousel"
+        data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+
+      <button type="button" data-bs-target="#testimonialsCarousel"
+        data-bs-slide-to="1" aria-label="Slide 2"></button>
+
+      <button type="button" data-bs-target="#testimonialsCarousel"
+        data-bs-slide-to="2" aria-label="Slide 3"></button>
+
+      <button type="button" data-bs-target="#testimonialsCarousel"
+        data-bs-slide-to="3" aria-label="Slide 4"></button>
+    </div>
+
+    <!-- Carousel Inner -->
+    <div class="carousel-inner my-5">
+
+      <!-- Slide 1 -->
+      <div class="carousel-item active">
+
+        <div class="testimonial-card">
+
+          <div class="rating">
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <span>5.0 out of 5</span>
+          </div>
+
+          <p class="testimonial-text">
+            "Selling our Manhattan penthouse was stress-free thanks to
+            EliteHomes. They marketed it beautifully, brought qualified
+            buyers, and we sold for 15% above asking price in just 10 days.
+            Their professional photography and staging made all the difference."
           </p>
 
-          <!-- Feature 1 -->
-          <div class="buying-feature">
-            <div class="feature-icon">
-              <i class="fa-solid fa-magnifying-glass"></i>
-            </div>
+          <div class="client-info">
+            <img src="images/avatar-3.jpg" alt="Amanda Chen">
 
             <div>
-              <h4>Property Search</h4>
-              <p>
-                Access exclusive listings and get notified of new properties
-                that match your criteria.
-              </p>
+              <h4>Amanda Chen</h4>
+              <p>Manhattan Seller</p>
+              <span>Sold $3.2M Penthouse</span>
             </div>
           </div>
-
-          <!-- Feature 2 -->
-          <div class="buying-feature">
-            <div class="feature-icon">
-              <i class="fa-solid fa-calculator"></i>
-            </div>
-
-            <div>
-              <h4>Financial Planning</h4>
-              <p>
-                Get pre-approved for mortgages and understand your budget
-                with our financial experts.
-              </p>
-            </div>
-          </div>
-
-          <!-- Feature 3 -->
-          <div class="buying-feature">
-            <div class="feature-icon">
-              <i class="fa-solid fa-handshake"></i>
-            </div>
-
-            <div>
-              <h4>Negotiation Support</h4>
-              <p>
-                Our skilled negotiators ensure you get the best possible
-                deal on your dream home.
-              </p>
-            </div>
-          </div>
-
-          <button class="buying-btn">
-            Start Your Search
-          </button>
 
         </div>
       </div>
 
+      <!-- Slide 2 -->
+      <div class="carousel-item">
 
-<!-- Right Image -->
-<div class="col-lg-6">
-    <div class="position-relative">
+        <div class="testimonial-card">
 
-        <img
-            src="images/service-img-2.webp"
-            alt="Happy family buying a home"
-            class="img-fluid w-100 rounded-4 shadow"
-        >
+          <div class="rating">
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <span>5.0 out of 5</span>
+          </div>
 
-        <!-- Success Card -->
-        <div class="position-absolute bg-white rounded-3 shadow p-4 translate-middle-y ms-3 Success Card fs-4">
-
-            <h3 class="text-primary fw-bold mb-1">
-                98%
-            </h3>
-
-            <p class="text-secondary mb-0">
-                Success Rate
-            </p>
-
-        </div>
-
-    </div>
-</div>
-
-
-    </div>
-  </div>
-
-</div>
-
-
-    <div class="tab-pane fade" id="selling-pane" role="tabpanel">
-<div class="buying-section">
-    <div class="row align-items-center g-5">
-
-      <div class="col-lg-6">
-        <div class="buying-content">
-
-          <h2>Maximize Your Home's Value</h2>
-
-          <p class="buying-description">
-            Sell your property quickly and for the best price with our
-            comprehensive marketing strategy and expert guidance.
+          <p class="testimonial-text">
+            "As first-time investors, we were nervous about entering the real
+            estate market. The EliteHomes investment team provided incredible
+            guidance and helped us build a portfolio that's already generating
+            18% annual returns. Their expertise is unmatched."
           </p>
 
-          <div class="buying-feature">
-            <div class="feature-icon">
-              <i class="fa-solid fa-chart-line"></i>
-            </div>
+          <div class="client-info">
+            <img src="images/avatar-3.jpg" alt="David Rodriguez">
+
             <div>
-              <h4>Market Analysis</h4>
-              <p>Get a comprehensive market analysis to price your home competitively.</p>
+              <h4>David Rodriguez</h4>
+              <p>Real Estate Investor</p>
+              <span>$1.2M Investment Portfolio</span>
             </div>
-          </div>
-
-          <div class="buying-feature">
-            <div class="feature-icon">
-              <i class="fa-solid fa-camera"></i>
-            </div>
-            <div>
-              <h4>Professional Marketing</h4>
-              <p>High-quality photography, virtual tours, and multi-channel marketing campaigns.</p>
-            </div>
-          </div>
-
-          <div class="buying-feature">
-            <div class="feature-icon">
-              <i class="fa-solid fa-users"></i>
-            </div>
-            <div>
-              <h4>Buyer Screening</h4>
-              <p>We pre-qualify buyers to ensure serious inquiries and smooth transactions.</p>
-            </div>
-          </div>
-
-          <button class="buying-btn">Get Home Valuation</button>
-
-        </div>
-      </div>
-
-      <div class="col-lg-6">
-        <div class="position-relative">
-
-          <img src="images/service-img-3.webp"
-               class="img-fluid w-100 rounded-4 shadow buying-img"
-               alt="Selling Property">
-
-          <div class="position-absolute top-100 end-0 translate-middle-y me-3 bg-white rounded-3 shadow p-4">
-            <h3 class="text-success fw-bold mb-1">21 days</h3>
-            <p class="text-secondary mb-0">Avg. Time to Sell</p>
           </div>
 
         </div>
       </div>
 
-    </div>
-  </div>    </div>
+      <!-- Slide 3 -->
+      <div class="carousel-item">
 
-    <div class="tab-pane fade" id="renting-pane" role="tabpanel">
-  <div class="buying-section">
-    <div class="row align-items-center g-5">
+        <div class="testimonial-card">
 
-      <div class="col-lg-6">
-        <div class="buying-content">
+          <div class="rating">
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <span>5.0 out of 5</span>
+          </div>
 
-          <h2>Premium Rental Properties</h2>
-
-          <p class="buying-description">
-            Find your perfect rental home with our extensive portfolio
-            of quality properties and personalized service.
+          <p class="testimonial-text">
+            "Our company needed to relocate to a larger office space quickly.
+            EliteHomes' commercial team found us the perfect building in
+            downtown Austin with flexible lease terms and great amenities.
+            They handled everything professionally and efficiently."
           </p>
 
-          <div class="buying-feature">
-            <div class="feature-icon">
-              <i class="fa-solid fa-map-location-dot"></i>
-            </div>
+          <div class="client-info">
+            <img src="images/avatar-3.jpg" alt="Michael Foster">
+
             <div>
-              <h4>Prime Locations</h4>
-              <p>Access rentals in the most desirable neighborhoods and communities.</p>
+              <h4>Michael Foster</h4>
+              <p>CEO, TechStart Inc.</p>
+              <span>15,000 sq ft Office Lease</span>
             </div>
-          </div>
-
-          <div class="buying-feature">
-            <div class="feature-icon">
-              <i class="fa-solid fa-shield-halved"></i>
-            </div>
-            <div>
-              <h4>Verified Properties</h4>
-              <p>All our rental properties are thoroughly inspected and verified for quality.</p>
-            </div>
-          </div>
-
-          <div class="buying-feature">
-            <div class="feature-icon">
-              <i class="fa-solid fa-screwdriver-wrench"></i>
-            </div>
-            <div>
-              <h4>24/7 Support</h4>
-              <p>Round-the-clock maintenance and tenant support services.</p>
-            </div>
-          </div>
-
-          <button class="buying-btn">Browse Rentals</button>
-
-        </div>
-      </div>
-
-      <div class="col-lg-6">
-        <div class="position-relative">
-
-          <img src="images/service-img-4.png"
-               class="img-fluid w-100 rounded-4 shadow buying-img"
-               alt="Rental Property">
-
-          <div class="position-absolute top-100 start-0 translate-middle-y ms-3 bg-white rounded-3 shadow p-4">
-            <h3 class="text-primary fw-bold mb-1">5,000+</h3>
-            <p class="text-secondary mb-0">Available Rentals</p>
           </div>
 
         </div>
       </div>
 
-    </div>
-  </div>    </div>
+      <!-- Slide 4 -->
+      <div class="carousel-item">
 
-    <div class="tab-pane fade" id="investing-pane" role="tabpanel">
-  <div class="buying-section">
-    <div class="row align-items-center g-5">
+        <div class="testimonial-card">
 
-      <div class="col-lg-6">
-        <div class="buying-content">
+          <div class="rating">
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <span>5.0 out of 5</span>
+          </div>
 
-          <h2>Real Estate Investment</h2>
-
-          <p class="buying-description">
-            Build wealth through strategic real estate investments
-            with our expert guidance and market insights.
+          <p class="testimonial-text">
+            "EliteHomes made our home buying experience absolutely seamless.
+            Sarah and her team went above and beyond to help us find the
+            perfect family home in Beverly Hills. Their market knowledge and
+            negotiation skills saved us over $100,000 on our purchase.
+            We couldn't be happier!"
           </p>
 
-          <div class="buying-feature">
-            <div class="feature-icon">
-              <i class="fa-solid fa-chart-pie"></i>
-            </div>
+          <div class="client-info">
+            <img src="images/avatar-3.jpg" alt="Jennifer Thompson">
+
             <div>
-              <h4>Portfolio Analysis</h4>
-              <p>Comprehensive analysis of investment opportunities and portfolio optimization.</p>
+              <h4>Jennifer &amp; Mark Thompson</h4>
+              <p>Beverly Hills Homeowners</p>
+              <span>Purchased $2.8M Family Estate</span>
             </div>
-          </div>
-
-          <div class="buying-feature">
-            <div class="feature-icon">
-              <i class="fa-solid fa-money-bill-wave"></i>
-            </div>
-            <div>
-              <h4>ROI Projections</h4>
-              <p>Detailed return on investment calculations and market forecasting.</p>
-            </div>
-          </div>
-
-          <div class="buying-feature">
-            <div class="feature-icon">
-              <i class="fa-solid fa-gear"></i>
-            </div>
-            <div>
-              <h4>Property Management</h4>
-              <p>Full-service property management for hands-off investment experience.</p>
-            </div>
-          </div>
-
-          <button class="buying-btn">Explore Investments</button>
-
-        </div>
-      </div>
-
-      <div class="col-lg-6">
-        <div class="position-relative">
-
-          <img src="images/service-img-5.png"
-               class="img-fluid w-100 rounded-4 shadow buying-img"
-               alt="Real Estate Investment">
-
-          <div class="position-absolute top-100 end-0 translate-middle-y me-3 bg-white rounded-3 shadow p-4">
-            <h3 class="text-warning fw-bold mb-1">15%</h3>
-            <p class="text-secondary mb-0">Avg. Annual ROI</p>
           </div>
 
         </div>
       </div>
 
     </div>
-  </div>    </div>
 
-    <div class="tab-pane fade show active" id="commercial-pane" role="tabpanel">
-  <div class="buying-section">
-    <div class="row align-items-center g-5">
+    <!-- Previous Button -->
+    <button class="carousel-control-prev"
+      type="button"
+      data-bs-target="#testimonialsCarousel"
+      data-bs-slide="prev">
 
-      <div class="col-lg-6">
-        <div class="buying-content">
+      <span class="carousel-control-prev-icon"
+        aria-hidden="true"></span>
 
-          <h2>Commercial Real Estate</h2>
+      <span class="visually-hidden">Previous</span>
+    </button>
 
-          <p class="buying-description">
-            Expert commercial real estate services for businesses,
-            investors, and developers.
-          </p>
+    <!-- Next Button -->
+    <button class="carousel-control-next"
+      type="button"
+      data-bs-target="#testimonialsCarousel"
+      data-bs-slide="next">
 
-          <div class="buying-feature">
-            <div class="feature-icon">
-              <i class="fa-solid fa-building"></i>
-            </div>
-            <div>
-              <h4>Office Spaces</h4>
-              <p>Prime office locations for businesses of all sizes and industries.</p>
-            </div>
-          </div>
+      <span class="carousel-control-next-icon"
+        aria-hidden="true"></span>
 
-          <div class="buying-feature">
-            <div class="feature-icon">
-              <i class="fa-solid fa-warehouse"></i>
-            </div>
-            <div>
-              <h4>Industrial Properties</h4>
-              <p>Warehouses, manufacturing facilities, and distribution centers.</p>
-            </div>
-          </div>
-
-          <div class="buying-feature">
-            <div class="feature-icon">
-              <i class="fa-solid fa-store"></i>
-            </div>
-            <div>
-              <h4>Retail Spaces</h4>
-              <p>High-traffic retail locations and shopping center opportunities.</p>
-            </div>
-          </div>
-
-          <button class="buying-btn">View Commercial Properties</button>
-
-        </div>
-      </div>
-
-      <div class="col-lg-6">
-        <div class="position-relative">
-
-          <img src="images/service-img-2.webp"
-               class="img-fluid w-100 rounded-4 shadow buying-img"
-               alt="Commercial Real Estate">
-
-          <div class="position-absolute top-100 start-0 translate-middle-y ms-3 bg-white rounded-3 shadow p-4">
-            <h3 class="text-primary fw-bold mb-1">$2.5B</h3>
-            <p class="text-secondary mb-0">Commercial Volume</p>
-          </div>
-
-        </div>
-      </div>
-
-    </div>
-  </div>    </div>
+      <span class="visually-hidden">Next</span>
+    </button>
 
   </div>
 </div>
