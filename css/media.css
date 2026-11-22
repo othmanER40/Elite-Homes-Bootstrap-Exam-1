@@ -10,7 +10,7 @@
   }
 }
 @media (max-width: 768px) {
-    .hero-content h1 {
+  .hero-content h1 {
     font-size: clamp(1.9rem, 8vw, 2.6rem);
     line-height: 1.2;
   }
@@ -81,7 +81,7 @@
   .hero-stats p {
     font-size: 14px;
   }
-.testimonial-card {
+  .testimonial-card {
     width: 90% !important;
     margin: 0 auto !important;
     padding: 25px 20px !important;
@@ -141,13 +141,25 @@
   #testimonialsCarousel .carousel-control-prev,
   #testimonialsCarousel .carousel-control-next {
     display: none !important;
-  }}
+  }
+  .cont-help {
+    width: 80%;
+    margin: auto;
+  }
+  .accordion-item .accordion-button {
+    font-size: 20px !important;
+    font-weight: 700 !important;
+  }
+  .shape-container::before,
+  .shape-container::after {
+    display: none !important;
+  }
+}
 @media (max-width: 576px) {
   .carousel-control-prev,
   .carousel-control-next {
     display: none !important;
   }
-
 
   .property-img {
     height: 230px;
