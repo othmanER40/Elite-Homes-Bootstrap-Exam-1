@@ -774,56 +774,59 @@
 
 /* Carousel Indicators */
 #testimonialsCarousel .carousel-indicators {
-    position: absolute;
-    bottom: -65px;
-    display: flex;
-    justify-content: center;
-    gap: 8px;
-    z-index: 5;
-    margin-bottom: 0;
+  position: absolute;
+  bottom: -65px;
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  z-index: 5;
+  margin-bottom: 0;
 }
 
 /* Indicator Buttons */
 #testimonialsCarousel .carousel-indicators button {
-    width: 15px;
-    height: 15px;
-    border-radius: 50%;
-    background-color: #b58ad8;
-    border: none;
-    opacity: 0.7;
-    margin: 0;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #b58ad8;
+  border: none;
+  opacity: 0.7;
+  margin: 0;
 }
 
 /* Active Indicator */
 #testimonialsCarousel .carousel-indicators button.active {
-    background-color: white;
-    opacity: 1;
+  background-color: white;
+  opacity: 1;
 }
 
 /* Slider Space */
 .slider {
-    padding: 40px 5% 100px;
-    overflow: visible;
+  padding: 40px 5% 100px;
+  overflow: visible;
 }
 
 /* Help section*/
-.cont-help{width: 80%; margin: auto; }
+.cont-help {
+  width: 80%;
+  margin: auto;
+}
 .accordion-item .accordion-button {
-    font-size: 27px !important;
-    font-weight: 700 !important;
+  font-size: 27px !important;
+  font-weight: 700 !important;
 }
 .faq {
-    padding: 20px 0;
+  padding: 20px 0;
 }
 
 /* Accordion Item */
 .faq .accordion-item {
-    border: none;
-    border-radius: 18px !important;
-    overflow: hidden;
-    margin-bottom: 27px;
-    background-color: #fff;
-    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.10);
+  border: none;
+  border-radius: 18px !important;
+  overflow: hidden;
+  margin-bottom: 27px;
+  background-color: #fff;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
 }
 
 /* ==============================
@@ -894,7 +897,6 @@
   line-height: 1.7;
 }
 
-
 /* ==============================
    Contact Options Cards
 ============================== */
@@ -953,7 +955,6 @@
   font-weight: 600;
 }
 
-
 /* ==============================
    Contact Information
 ============================== */
@@ -1006,7 +1007,6 @@
   margin-bottom: 3px;
 }
 
-
 /* ==============================
    Social Media Card
 ============================== */
@@ -1054,7 +1054,6 @@
   color: #7925ff;
   transform: translateY(-3px);
 }
-
 
 /* ==============================
    Message Form
@@ -1120,7 +1119,6 @@
   font-size: 12px;
 }
 
-
 /* ==============================
    Checkbox
 ============================== */
@@ -1146,7 +1144,6 @@
   color: #475569;
   cursor: pointer;
 }
-
 
 /* ==============================
    Submit Button
@@ -1179,29 +1176,339 @@
   color: #94a3b8;
 }
 
-
-
-
 /* Large circle */
 .shape-container::before {
-    content: "";
-    position: absolute;
-    width: 480px;
-    height: 480px;
-    background-color: #f5f3ff;
-    border-radius: 50%;
-    top: -200px;
-    right: -200px;
+  content: "";
+  position: absolute;
+  width: 480px;
+  height: 480px;
+  background-color: #f5f3ff;
+  border-radius: 50%;
+  top: -200px;
+  right: -200px;
 }
 
 /* Small outlined circle */
 .shape-container::after {
+  content: "";
+  position: absolute;
+  width: 160px;
+  height: 160px;
+  border: 5px solid #ddd6fe;
+  border-radius: 50%;
+  top: 100px;
+  right: 100px;
+}
+
+/* Footer */
+.footer {
+  background: linear-gradient(120deg, #512095, #641b85);
+  color: white;
+  padding: 30px 0;
+}
+
+/* Footer Top */
+.footer-top {
+  min-height: 70px;
+}
+
+/* Logo */
+.footer-logo {
+  color: white;
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: 700;
+  transition: 0.3s;
+}
+
+.footer-logo:hover {
+  color: #e9d5ff;
+}
+
+/* Copyright */
+.copyright {
+  color: #e9d5ff;
+  font-size: 20px;
+}
+
+/* Social Links */
+.social-links a {
+  width: 50px;
+  height: 50px;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  font-size: 20px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.social-links a:hover {
+  background-color: #852cff;
+  transform: translateY(-5px);
+}
+
+/* Divider */
+.footer hr {
+  border-color: rgba(255, 255, 255, 0.2);
+  margin: 30px 0;
+}
+
+/* Footer Bottom */
+.footer-bottom p {
+  color: #d8c5ff;
+  font-size: 17px;
+}
+
+/* Heart */
+.heart-icon {
+  color: #ff665f;
+  font-size: 18px;
+}
+.property-item img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+/* Popular Locations */
+.popular-locations {
+  padding: 10px;
+}
+
+.popular-locations h4 {
+  font-size: 23px;
+  font-weight: 700;
+  color: #1e293b;
+  margin-bottom: 25px;
+}
+
+/* Location Card */
+.location-card {
+  position: relative;
+  width: 100%;
+  height: 100px;
+  border-radius: 15px;
+  overflow: hidden;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+/* Location Image */
+.location-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.5s ease;
+}
+
+/* Purple Overlay */
+.location-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    90deg,
+    rgba(75, 25, 130, 0.75),
+    rgba(95, 35, 150, 0.45)
+  );
+}
+
+/* Location Content */
+.location-content {
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  transform: translateY(-50%);
+  color: white;
+  z-index: 2;
+}
+
+.location-content h5 {
+  font-size: 23px;
+  font-weight: 700;
+  margin-bottom: 3px;
+}
+
+.location-content p {
+  font-size: 18px;
+  margin: 0;
+  color: #e9d5ff;
+}
+
+/* Hover Effect */
+.location-card:hover img {
+  transform: scale(1.1);
+}
+
+.location-card:hover .location-overlay {
+  background: linear-gradient(
+    90deg,
+    rgba(75, 25, 130, 0.85),
+    rgba(95, 35, 150, 0.6)
+  );
+}
+.navbar .dropdown {
+  position: static;
+}
+
+.navbar .dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+
+  width: min(1100px, calc(100vw - 40px));
+  padding: 30px;
+
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 10px 35px rgba(0, 0, 0, 0.12);
+}
+/* Resources Section */
+.resources-section {
+    padding: 10px;
+}
+
+.resources-title {
+    font-size: 23px;
+    font-weight: 700;
+    color: #1e293b;
+    margin-bottom: 25px;
+}
+
+/* Resources List */
+.resources-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Resource Card */
+.resource-card {
+    position: relative;
+    padding: 25px;
+    border: 1px solid #e9d5ff;
+    border-radius: 15px;
+    overflow: hidden;
+    background-color: white;
+    transition: 0.3s ease;
+}
+
+/* Decorative Circle */
+.resource-card::before {
     content: "";
     position: absolute;
     width: 160px;
     height: 160px;
-    border: 5px solid #ddd6fe;
+    top: -80px;
+    right: -80px;
     border-radius: 50%;
-    top: 100px;
-    right: 100px;
+    background-color: #f5f3ff;
+}
+
+/* Card Heading */
+.resource-heading {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 15px;
+    z-index: 1;
+}
+
+.resource-heading h5 {
+    font-size: 23px;
+    font-weight: 700;
+    color: #172033;
+    margin: 0;
+}
+
+/* Icon */
+.resource-icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #f0e9ff;
+    color: #852cff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 23px;
+    flex-shrink: 0;
+}
+
+/* Description */
+.resource-card p {
+    position: relative;
+    color: #526074;
+    font-size: 19px;
+    line-height: 1.6;
+    margin-bottom: 18px;
+    z-index: 1;
+}
+
+/* Link */
+.resource-link {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    color: #852cff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    z-index: 1;
+    transition: 0.3s;
+}
+
+.resource-link i {
+    font-size: 22px;
+    transition: transform 0.3s;
+}
+
+.resource-link:hover i {
+    transform: translateX(5px);
+}
+
+/* Purple Card */
+.purple-card {
+    border-color: #e9d5ff;
+}
+
+.purple-card::before {
+    background-color: #f7f5ff;
+}
+
+.purple-card .resource-link {
+    color: #852cff;
+}
+
+/* Green Card */
+.green-card {
+    border-color: #a7f3c5;
+}
+
+.green-card::before {
+    background-color: #edfcf3;
+}
+
+.green-card .resource-icon {
+    background-color: #dcfce7;
+    color: #00a84f;
+}
+
+.green-card h5,
+.green-card .resource-link {
+    color: #00a84f;
+}
+
+/* Hover */
+.resource-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
 }
