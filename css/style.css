@@ -1391,12 +1391,14 @@
 /* Resource Card */
 .resource-card {
     position: relative;
-    padding: 25px;
+    padding: 5px;
     border: 1px solid #e9d5ff;
     border-radius: 15px;
     overflow: hidden;
     background-color: white;
     transition: 0.3s ease;
+    height: fit-content;
+    width: fit-content;
 }
 
 /* Decorative Circle */
@@ -1422,7 +1424,7 @@
 }
 
 .resource-heading h5 {
-    font-size: 23px;
+    font-size: 18px;
     font-weight: 700;
     color: #172033;
     margin: 0;
@@ -1446,7 +1448,7 @@
 .resource-card p {
     position: relative;
     color: #526074;
-    font-size: 19px;
+    font-size: 15px;
     line-height: 1.6;
     margin-bottom: 18px;
     z-index: 1;

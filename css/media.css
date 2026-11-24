@@ -8,12 +8,63 @@
   .navbar-nav .nav-link.active {
     border-bottom: none;
   }
+  
+  .navbar .dropdown-menu {
+    position: static !important;
+    transform: none !important;
+    inset: auto !important;
+    width: 100% !important;
+    margin: 0 !important;
+    box-shadow: none;
+  
+}
 }
 @media (max-width: 768px) {
+    .navbar .dropdown-menu{width: 100%!important; margin: auto;
+        max-height: 450px;
+    overflow-y: auto;
+    overflow-x: hidden;}
+    .container-prob{display: flex;flex-direction: column;}
   .hero-content h1 {
     font-size: clamp(1.9rem, 8vw, 2.6rem);
     line-height: 1.2;
   }
+.property-types {
+  background: #f8fafc;
+  border-radius: 12px;
+  padding: 20px;
+}
+
+.property-types h4 {
+  font-size: 16px;
+  font-weight: 700;
+  color: #111827;
+  margin-bottom: 12px;
+}
+
+.types-list {
+  display: grid;
+  grid-template-rows: repeat(3, auto);   /* 3 rows */
+  grid-auto-flow: column;                /* fill column by column */
+  grid-template-columns: repeat(2, 1fr); /* 2 columns */
+  gap: 8px 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.types-list li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #64748b;
+  font-size: 16px;
+}
+
+.types-list li i {
+  color: #94a3b8;
+  font-size: 18px;
+}
+
 
   .properties-header h2,
   .section-title {
